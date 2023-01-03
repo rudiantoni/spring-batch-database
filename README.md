@@ -15,5 +15,5 @@
 
 > If you want to change the name in the message, you can change the `JOB_PARAMETER_NAME` variable value inside the file `docker/environment.env`.
 
-Image with working example:
+Log image with working example:
 - [database-spring-batch working example](https://imgur.com/a/e6pOSzQ)
