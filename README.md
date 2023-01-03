@@ -5,13 +5,15 @@
 - Automation oriented: most settings are done via shell scripts.
 
 ## Running
-- Operational system Linux Ubuntu or related distros.
-- Docker
-    - Instructions: [Install Docker Engine on Ubuntu | Docker Documentation](https://docs.docker.com/engine/install/ubuntu/)
-- Docker compose
-    - Instructions: [Install the Compose standalone | Docker Documentation](https://docs.docker.com/compose/install/other/)
-- Recommended JRE version 17.
-    - Instructions: [OpenJDK: Download and install](https://openjdk.org/install/)
+- Required
+    - Operational system Linux Ubuntu or related distros.
+    - Docker
+        - Instructions: [Install Docker Engine on Ubuntu | Docker Documentation](https://docs.docker.com/engine/install/ubuntu/)
+    - Docker compose
+        - Instructions: [Install the Compose standalone | Docker Documentation](https://docs.docker.com/compose/install/other/)
+    - JRE/JDK
+        - Recommended JRE version 17.
+        - Instructions: [OpenJDK: Download and install](https://openjdk.org/install/)
 - Run the file `deploy.sh` with: `sh deploy.sh`.
     - INFO command line argument:
         - `name`
