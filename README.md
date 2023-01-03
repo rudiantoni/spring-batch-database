@@ -1,6 +1,8 @@
 # database-spring-batch
 - Basic working structure without single responsibility, using job, step and tasklet.
 - First project using a database (MySQL) for batch metadata persintence.
+- Dockerized project: both application and database runs in separate containers.
+- Automation oriented: most settings are done via shell scripts.
 
 ## Running
 - Operational system Linux Ubuntu or related distros.
