@@ -15,15 +15,15 @@
     - Instructions: [OpenJDK: Download and install](https://openjdk.org/install/)
 
 ## Running
-- Run the file `deploy.sh` with: `sh deploy.sh`.
+- Run the file *deploy.sh* with: `sh deploy.sh`.
     - It uses the following command line argument(s):
-        - `name`
+        - name
         
 ## Stopping
-- Run the file `stop.sh` with: `sh stop.sh` to fully stop and remove the application containers.
+- Run the file *stop.sh* with: `sh stop.sh` to fully stop and remove the application containers.
     - You don't need to stop the application if you want to run it again.
 
-> If you want to change the name in the message, you can change the `JOB_PARAMETER_NAME` variable value inside the file `docker/environment.env`.
+> If you want to change the name in the message, you can change the **JOB_PARAMETER_NAME** variable value inside the file *docker/environment.env*.
 
 Log image with working example:
 - [database-spring-batch working example](https://imgur.com/a/e6pOSzQ)
