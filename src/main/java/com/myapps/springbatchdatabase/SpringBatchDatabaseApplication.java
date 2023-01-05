@@ -1,13 +1,13 @@
-package com.myapps.segundoprojetospringbatch;
+package com.myapps.springbatchdatabase;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 
 @SpringBootApplication
-public class SegundoProjetoSpringBatchApplication {
+public class SpringBatchDatabaseApplication {
 
 	public static void main(String[] args) {
-		SpringApplication.run(SegundoProjetoSpringBatchApplication.class, args);
+		SpringApplication.run(SpringBatchDatabaseApplication.class, args);
 	}
 
 }

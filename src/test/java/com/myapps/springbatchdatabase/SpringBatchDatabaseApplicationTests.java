@@ -1,10 +1,10 @@
-package com.myapps.segundoprojetospringbatch;
+package com.myapps.springbatchdatabase;
 
 import org.junit.jupiter.api.Test;
 import org.springframework.boot.test.context.SpringBootTest;
 
 @SpringBootTest
-class SegundoProjetoSpringBatchApplicationTests {
+class SpringBatchDatabaseApplicationTests {
 
 	@Test
 	void contextLoads() {

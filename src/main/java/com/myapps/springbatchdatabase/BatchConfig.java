@@ -1,4 +1,4 @@
-package com.myapps.segundoprojetospringbatch;
+package com.myapps.springbatchdatabase;
 
 import org.springframework.batch.core.Job;
 import org.springframework.batch.core.Step;
@@ -14,8 +14,6 @@ import org.springframework.batch.repeat.RepeatStatus;
 import org.springframework.beans.factory.annotation.Value;
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;
-
-import java.util.List;
 
 @EnableBatchProcessing
 @Configuration
