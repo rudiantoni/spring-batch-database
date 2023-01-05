@@ -1,4 +1,4 @@
-# database-spring-batch
+# spring-batch-database
 - Basic working structure without single responsibility, using job, step and tasklet.
 - First project using a database (MySQL) for batch metadata persintence.
 - Dockerized project: both application and database runs in separate containers.
@@ -26,4 +26,4 @@
 > If you want to change the name in the message, you can change the **JOB_PARAMETER_NAME** variable value inside the file *docker/environment.env*.
 
 Log image with working example:
-- [database-spring-batch working example](https://imgur.com/a/e6pOSzQ)
+- [spring-batch-database working example](https://imgur.com/a/e6pOSzQ)
