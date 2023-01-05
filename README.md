@@ -18,6 +18,7 @@
 - Run the file *deploy.sh* with: `sh deploy.sh`.
     - It uses the following command line argument(s):
         - name
+- For didatic purposes (like connecting and checking the database, checking logs, etc), the application doesn't clean the created containers automatically when finishes it's execution, so just follow the *Stopping* section instructions in order to fully stop and clean the application containers.
         
 ## Stopping
 - Run the file *stop.sh* with: `sh stop.sh` to fully stop and remove the application containers.
