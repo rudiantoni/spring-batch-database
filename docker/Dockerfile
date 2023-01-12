@@ -18,8 +18,6 @@ RUN gradle build --no-daemon -x test
 FROM openjdk:17 AS runner
 VOLUME /tmp
 
-ARG JAR_FILE
-
 COPY --from=builder /opt/app/build/libs/*-SNAPSHOT.jar /app.jar
 
 ENV PROFILE="default"
